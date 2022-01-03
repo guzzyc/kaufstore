@@ -1,0 +1,53 @@
+{
+    "packages": [
+        {
+            "name": "jajo/jsondb",
+            "version": "v3.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/donjajo/php-jsondb.git",
+                "reference": "4117da5380618f3699d7d89cdefa2a97bc04befa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/donjajo/php-jsondb/zipball/4117da5380618f3699d7d89cdefa2a97bc04befa",
+                "reference": "4117da5380618f3699d7d89cdefa2a97bc04befa",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7"
+            },
+            "time": "2021-09-01T23:41:53+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jajo\\": "src/"
+                },
+                "files": [
+                    "helpers/dataTypes.php",
+                    "helpers/json.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jajo",
+                    "email": "me@donjajo.com"
+                }
+            ],
+            "description": "A PHP Class that reads JSON file as a database. Use for sample DBs",
+            "support": {
+                "issues": "https://github.com/donjajo/php-jsondb/issues",
+                "source": "https://github.com/donjajo/php-jsondb/tree/v3.0"
+            },
+            "install-path": "../jajo/jsondb"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

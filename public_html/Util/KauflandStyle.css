@@ -1,0 +1,40 @@
+h5,h4,.kaufCard{
+	margin: 20px 0 0 20px;
+	float:left;
+	position:relative;	
+}
+h4{
+	margin-bottom:50px;
+}
+.kaufLogPanel{
+	margin-left:20px;
+	float:left;
+	position:relative;	
+}
+.kaufCard:hover{
+	cursor:pointer;
+}
+.kaufCard{
+	width:290px;
+}
+.kaufCard .kaufPanel{
+	border-radius : 2px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+.kaufCard a{
+	text-align:left;
+}
+.kaufCard i{
+	text-align:center;
+	margin-left:20px;
+}
+.kaufCard i,.kaufCard a,.kaufCard{
+	line-height:44px;
+}
+.kaufCard i{
+	width:30px;
+}
+.cleardiv{
+	width:100%;
+	clear:both;
+}
